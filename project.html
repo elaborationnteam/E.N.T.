@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Proyecto Ecoedificio - Elaboration N Team</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/ElaborationNteam-_1_.svg" alt="Elaboration N Team Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="donations.html">Donaciones</a></li>
+                <li><a href="project.html" class="active">Proyecto</a></li>
+                <li><a href="#wro">World Robot Olympiad</a></li>
+            </ul>
+            <div class="burger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+
+        <header class="project-header">
+            <h1>Proyecto Ecoedificio</h1>
+            <p>Innovación en construcción sostenible</p>
+        </header>
+
+        <section class="project-overview">
+            <div class="project-image-main">
+                <img src="img/Captura.JPG" alt="Modelo de Ecoedificio">
+            </div>
+            <div class="project-description">
+                <h2>¿Qué es el Ecoedificio?</h2>
+                <p>Nuestro Ecoedificio es un concepto revolucionario que combina robótica, inteligencia artificial y diseño sostenible para crear estructuras que minimizan su impacto ambiental mientras maximizan la eficiencia energética y el confort humano.</p>
+                
+                <div class="project-stats">
+                    <div class="stat">
+                        <div class="stat-number">75%</div>
+                        <div class="stat-label">Reducción consumo energético</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">90%</div>
+                        <div class="stat-label">Materiales reciclables</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Agua pluvial aprovechada</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-features">
+            <h2>Características Clave</h2>
+            
+            <div class="features-grid">
+                <div class="feature">
+                    <i class="fas fa-solar-panel"></i>
+                    <h3>Energía Solar Integrada</h3>
+                    <p>Paneles solares de última generación integrados en la fachada para máxima eficiencia.</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fas fa-water"></i>
+                    <h3>Sistema de Agua Pluvial</h3>
+                    <p>Recolección y filtrado de agua de lluvia para uso en el edificio. (En La Siguiente fase)</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fas fa-recycle"></i>
+                    <h3>Materiales Ecológicos</h3>
+                    <p>Uso de materiales reciclados y de bajo impacto ambiental.</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fas fa-robot"></i>
+                    <h3>Automatización Inteligente</h3>
+                    <p>Sistemas robóticos para optimizar el consumo energético.</p>
+                </div>
+                </div>
+                
+                <div class="feature">
+                    <i class="fas fa-seedling"></i>
+                    <h3>Techos Verdes</h3>
+                    <p>Áreas verdes en techos para aislamiento térmico y mejora ambiental.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-details">
+            <h2>Detalles Técnicos</h2>
+            
+            <div class="details-tabs">
+                <div class="tabs">
+                    <button class="tab-button active" onclick="openTab('estructura')">Estructura</button>
+                    <button class="tab-button" onclick="openTab('sistemas')">Sistemas</button>
+                    <button class="tab-button" onclick="openTab('beneficios')">Beneficios</button>
+                </div>
+                
+                <div id="estructura" class="tab-content active">
+                    <h3>Estructura Sostenible</h3>
+                    <ul>
+                        <li>Estructura modular prefabricada</li>
+                        <li>Materiales: Madera certificada, acero reciclado, hormigón con cenizas volantes</li>
+                        <li>Aislamiento térmico con materiales naturales</li>
+                        <li>Diseño bioclimático adaptado al entorno</li>
+                    </ul>
+                </div>
+                
+                <div id="sistemas" class="tab-content">
+                    <h3>Sistemas Inteligentes</h3>
+                    <ul>
+                        <li>Gestor energético automatizado</li>
+                        <li>Iluminación LED</li>
+                        <li>Climatización geotérmica</li>
+                    </ul>
+                </div>
+                
+                <div id="beneficios" class="tab-content">
+                    <h3>Beneficios Ambientales</h3>
+                    <ul>
+                        <li>Reducción de huella de carbono</li>
+                        <li>Menor consumo de recursos naturales</li>
+                        <li>Mejor calidad del aire interior</li>
+                        <li>Contribución a la biodiversidad urbana</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-gallery">
+            <h2>Galería del Proyecto</h2>|
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="img/Morochos Maqueta.jpeg" alt="Maqueta del Ecoedificio">
+                    <p>Maqueta inicial del proyecto</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/Sant Codigo (1).jpeg" alt="Equipo trabajando">
+                    <p>Nuestro Compañero Santiago Desarrolando el codigo De nuestra página</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/Gabo tink 3D.jpeg" alt="Diagrama técnico">
+                    <p>Diseño En 3D</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="project-cta">
+            <h2>¿Interesado en implementar esta tecnología?</h2>
+            <p>Contáctanos para más información sobre cómo llevar el Ecoedificio a tu comunidad.</p>
+            <a href="#contact" class="cta-button">Contactar al equipo</a>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="img/ElaborationNteam-_1_.svg" alt="Elaboration N Team Logo">
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="donations.html">Donaciones</a></li>
+                        <li><a href="project.html">Proyecto</a></li>
+                        <li><a href="#wro">WRO</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact" id="contact">
+                    <h3>Contacto</h3>
+                    <p>email: elaborationnteam@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Elaboration N Team. Todos los derechos reservados.</p>
+            </div> 
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
